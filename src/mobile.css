@@ -1,0 +1,56 @@
+@media screen and (max-width: 800px) {
+    input {
+        width: 80%;
+        font-size: 3vw;
+        
+    }
+    .search {
+    font-size: 5vw;
+    background-color: #ffcb00;
+    border-radius: 50%;
+    color: #072448;
+    padding: 0.5vw;
+    cursor: pointer;
+    margin-left: 2vw;
+    display: none;
+    }
+    .main-container {        
+        border-radius: 10px;
+        width: 90vw;        
+    }
+    .sections {
+        display: block;
+        height: auto;
+
+    }
+    .section-1 {
+    background-color: hsl(180, 100%, 92%);    
+    padding: 4vw;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    }
+    .section-1 h1 {
+    font-size: 20vw;
+    font-weight: 500;    
+    }
+    .section-1 h2 {
+    font-size: 3vw;
+    font-weight: 400; 
+
+    }
+    .section-2 {    
+    padding: 2vw;
+    }
+    .section-2 ul li {
+    display: flex;
+    font-size: 3vw;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw 1vw;
+    border-top: 0px solid black;
+    border-bottom: 1px solid black;
+   }
+}
+    

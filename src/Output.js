@@ -1,7 +1,7 @@
 import { WiBarometer, WiHumidity,WiStrongWind,WiFlood,WiThermometer } from "react-icons/wi";
 const Output = ({ props }) => {
     const{weather, main,name,wind,sys}=props
-    console.log(weather[0].main)    
+       
     return <div className="main-container">
         <div className="location-bar"><h2>{name},{sys.country}</h2></div>
         <div className="sections">
